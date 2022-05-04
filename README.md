@@ -7,18 +7,15 @@ In this part, you will write code to optimize the performance of a neural net by
 A template code has been provided for your reference. You do not need to follow it exactly, if you can come up with a better solution. The class NeuralNet
 contains the code necessary for this assignment.
 
-Below are the requirements and suggested steps of the program
+Below are the requirements and suggested steps of the program:
 - In the main method, the program passes path to the data file. Be sure to point that to a network path that your program can access.
 - In the preprocess method, you are required to do standard pre-processing tasks such as handling null values, ensuring data integrity, and standardization of attributes.
 - Complete the train evaluate method. Perform at least the following steps:
-
--- Create different neural networks with all possible combination of hyperparameters specified. You are free to use any library or package
-that creates the neural network for you using the chosen combination of hyperparameters.
-
-–- Keep track of model history i.e. model performance (accuracy) vs number of epochs in every case. Plot the model history for all the cases on a single plot. If that becomes too congested, you can break it up into two or three parts, and plot each part on the same plot.
-
-–- Output a table of results containing following columns: model hyperparameters, training and test accuracies, and training and test errors
-(e.g. mean squared error)
+  - Create different neural networks with all possible combination of hyperparameters specified. You are free to use any library or package
+  that creates the neural network for you using the chosen combination of hyperparameters.
+  - Keep track of model history i.e. model performance (accuracy) vs number of epochs in every case. Plot the model history for all the cases on a single plot. If that becomes too congested, you can break it up into two or three parts, and plot each part on the same plot.
+  - Output a table of results containing following columns: model hyperparameters, training and test accuracies, and training and test errors
+  (e.g. mean squared error)
 
 # Dataset
 You can use any one dataset from the UCI ML repository: https://archive.ics.uci.edu/ml/datasets.php
